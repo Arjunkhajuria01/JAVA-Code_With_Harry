@@ -1,0 +1,17 @@
+Basic terminologies of OOPS
+1) Abstraction : - Hiding Internal Details [shows only essential info]  {deep na jana} eg.
+
+2)Encapsulation :- The act of putting various components (together in a capsule)  eg. laptop , car
+  :- in Java encapsulation simply means that the sensitive data can be hidden from the user .
+
+3)Inheritance :- The act of deriving new things from the existing things .  eg . e-rikshaw form rikshaw
+  :- It also Uses DRY.
+
+4) Polymorphism :- One entity different features . eg. PHone can be used as calculator , Mp3 Player , Radio etc
+
+
+
+
+
+
+

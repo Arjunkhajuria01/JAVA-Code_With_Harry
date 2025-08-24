@@ -1,0 +1,41 @@
+ 💡 Real-world analogy:
+
+ Class = "Blueprint of a house".
+ Object = "Actual house built using that blueprint".
+ You can build many houses (objects) from the same blueprint (class), each with different paint color, size, etc.
+
+
+
+
+ 1. Class in Java
+
+A class is a blueprint (or template) from which objects are created.
+It groups data (variables/fields) and behavior (methods/functions) together.
+
+ Think of it like a blueprint of a car:
+
+It doesn’t represent a car itself, but describes what a car has (wheels, engine)
+and what it can do (drive, brake).
+From that blueprint, you can create many actual cars (objects).
+
+
+👉 Definition:
+
+A class in Java is a user-defined data type that contains fields
+(variables) and methods (functions) to define the properties and behavior of objects.
+
+
+
+
+ 2. Objects in Java
+
+A class is just a blueprint.
+
+An object is the real-world entity created from that blueprint.
+Objects represent instances of a class.
+
+👉 Definition:
+
+An object in Java is an instance of a class that has its own state (variables/fields)
+and behavior (methods).
+

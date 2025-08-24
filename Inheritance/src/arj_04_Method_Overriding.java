@@ -11,6 +11,7 @@ it is basically calling a method from the parent class in the derived class
         }
 }
     class NewChild extends NewParent {
+        @Override
         public void name(){
             // SP BASICALLY NAME METHOD IS CALLED IN CHILD CLASS AGAIN , BUT WIHT SOME CHANGE
             System.out.println("THIS IS A METHOD IN NEWCHILD CLASS");

@@ -14,8 +14,16 @@ class Myrunnable2 implements Runnable{
 public class Runnable_Interface {
     public static void main(String[] args) {
 // ccreating objects
-        Myrunnable mr = new Myrunnable();
-        Myrunnable2 mr2 = new Myrunnable2();
+        // first we have to creat a bullet for this class
+        // then we have to create a thread object of each class
+        Myrunnable bullet1= new Myrunnable();
+        Thread gun1 = new Thread(bullet1);
 
+
+        Myrunnable2 bullet2 = new Myrunnable2();
+        Thread gun2 = new Thread(bullet2);
+
+        gun1.start();
+        gun2.start();
     }
 }

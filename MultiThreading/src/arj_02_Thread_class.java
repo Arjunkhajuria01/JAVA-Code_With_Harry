@@ -17,11 +17,12 @@
         }
     }
     }
-    class Thread_class {
+     class Thread_class {
         public static void main(String[] args) {
     Mythreads mt = new Mythreads();
     Mythreads2 mt2 = new Mythreads2();
     mt.start();
     mt2.start();
+
     }
 }

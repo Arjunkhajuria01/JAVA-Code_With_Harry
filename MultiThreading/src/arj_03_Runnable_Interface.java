@@ -11,7 +11,7 @@ class Myrunnable2 implements Runnable{
     }
 }
 
-public class Runnable_Interface {
+class Runnable_Interface {
     public static void main(String[] args) {
 // ccreating objects
         // first we have to creat a bullet for this class

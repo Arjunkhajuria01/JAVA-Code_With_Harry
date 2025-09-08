@@ -24,13 +24,12 @@ class Mythreads2new extends Thread{
 
 public class arj_06_Thread_Priorities {
     public static void main(String[] args) {
-        class newThread_class {
-            public static void main(String[] args) {
+
                 Mythreadsnew mt = new Mythreadsnew();
                 Mythreads2new mt2 = new Mythreads2new();
+                mt.setPriority(Thread.MAX_PRIORITY);
                 mt.start();
                 mt2.start();
             }
         }
-    }
-}
+

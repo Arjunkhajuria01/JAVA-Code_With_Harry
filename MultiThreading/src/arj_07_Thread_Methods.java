@@ -18,7 +18,7 @@ class ThreadMeathods1 extends Thread {
 }
 
 
-public class Thread_Methods {
+public class arj_07_Thread_Methods {
     public static void main(String[] args) {
     ThreadMeathods1 tm1 = new ThreadMeathods1();
     ThreadMeathods2 tm2 = new ThreadMeathods2();

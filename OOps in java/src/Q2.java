@@ -16,5 +16,7 @@ public class Q2 {
         call.ringing();;
         call.vibrating();
 
+        // doing servlet :)
+
     }
 }
